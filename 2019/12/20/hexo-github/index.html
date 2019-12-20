@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="懒，才能促进提高">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>
+        
+        hexo_github - undefined
+        
+    </title>
+
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/aircloud.css">
+
+    
+<link rel="stylesheet" href="/css/gitment.css">
+
+    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
+    <link href="//at.alicdn.com/t/font_620856_pl6z7sid89qkt9.css" rel="stylesheet" type="text/css">
+    <!-- ga & ba script hoook -->
+    <script></script>
+<meta name="generator" content="Hexo 4.1.1"></head>
+
+<body>
+
+<div class="site-nav-toggle" id="site-nav-toggle">
+    <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+    </button>
+</div>
+
+<div class="index-about">
+    <i> 武安 </i>
+</div>
+
+<div class="index-container">
+    
+    <div class="index-left">
+        
+<div class="nav" id="nav">
+    <div class="avatar-name">
+        <div class="avatar ">
+            <img src="/img/avatar.png" />
+        </div>
+        <div class="name">
+            <i>wuan</i>
+        </div>
+    </div>
+    <div class="contents" id="nav-content">
+        <ul>
+            <li >
+                <a href="/">
+                    <i class="iconfont icon-shouye1"></i>
+                    <span>主页</span>
+                </a>
+            </li>
+            <li >
+                <a href="/tags">
+                    <i class="iconfont icon-biaoqian1"></i>
+                    <span>标签</span>
+                </a>
+            </li>
+            <li >
+                <a href="/archives">
+                    <i class="iconfont icon-guidang2"></i>
+                    <span>存档</span>
+                </a>
+            </li>
+            <li >
+                <a href="/about/">
+                    <i class="iconfont icon-guanyu2"></i>
+                    <span>关于</span>
+                </a>
+            </li>
+            
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#使用hexo搭建博客"><span class="toc-text">使用hexo搭建博客</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、前期准备"><span class="toc-text">一、前期准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、充实博客"><span class="toc-text">二、充实博客</span></a></li></ol></li></ol>
+</div>
+    
+</div>
+
+
+<div class="search-field" id="search-field">
+    <div class="search-container">
+        <div class="search-input">
+            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
+            <input id="search-input"/>
+            <span id="begin-search">搜索</span>
+        </div>
+        <div class="search-result-container" id="search-result-container">
+
+        </div>
+    </div>
+</div>
+
+        <div class="index-about-mobile">
+            <i> 武安 </i>
+        </div>
+    </div>
+    
+    <div class="index-middle">
+        <!-- Main Content -->
+        
+
+
+<div class="post-container">
+    <div class="post-title">
+        hexo_github
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2019-12-20 17:52:07</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#hexo" title="hexo">hexo</a>
+        <span>/</span>
+        
+        <a class="tag" href="/tags/#github" title="github">github</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <h1 id="使用hexo搭建博客"><a href="#使用hexo搭建博客" class="headerlink" title="使用hexo搭建博客"></a>使用hexo搭建博客</h1><h2 id="一、前期准备"><a href="#一、前期准备" class="headerlink" title="一、前期准备"></a>一、前期准备</h2><p>1、安装hexo脚手架</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<p>2、初始化生成博客目录</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init wuan.goitbub.io</span><br></pre></td></tr></table></figure>
+<p>3、进入博客目录，安装依赖</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd wuan.goitbub.io</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<p>4、生成静态页面</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+<p><code>hexo g 是就是hexo generate的缩写</code><br>hexo会Markdown格式的文件解析成可以使用浏览器查看的HTML文件，HTML文件存储在/public目录下。</p>
+<p>5、本地运行网站</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p><code>hexo s是hexo server的缩写</code>浏览器访问:<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></p>
+<p>6、修改个人配置</p>
+<p><strong>配置信息在 _config.yml文件中</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">title: wuan</span><br><span class="line">subtitle: &#39;武安阁&#39;</span><br><span class="line">description: &#39;懒，才能促进提高&#39;</span><br><span class="line">keywords: php，docker,go</span><br><span class="line">author: wuan</span><br><span class="line">language: zh</span><br><span class="line">timezone: &#39;&#39;</span><br></pre></td></tr></table></figure>
+
+<p>7、修改主题<br>可以进入 <a href="https://hexo.io/themes/" target="_blank" rel="noopener">hexo主题</a></p>
+<p><strong>下载主题(可以进入themes文件夹下)</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;aircloud&#x2F;hexo-theme-aircloud.git</span><br></pre></td></tr></table></figure>
+
+<p><strong>配置主题(_congig.yml)</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: hexo-theme-aircloud</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="二、充实博客"><a href="#二、充实博客" class="headerlink" title="二、充实博客"></a>二、充实博客</h2><p>1、新建文章</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new article</span><br><span class="line"></span><br><span class="line">或者 在source&#x2F;_posts 新建markdown文件</span><br></pre></td></tr></table></figure>
+
+<p>2、开启标签功能</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
+
+<p>这时会在source/下生成 tags/index.md 文件，我们将其打开，把它改成：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">type: &quot;tags&quot;</span><br><span class="line">comments: false</span><br></pre></td></tr></table></figure>
+
+<p>文章使用标签方法:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tags:</span><br><span class="line">    - Tag1</span><br><span class="line">    - Tag2</span><br></pre></td></tr></table></figure>
+
+<p>3、添加分类</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+
+<p>这时会在source目录下生成 categories/index.md 文件，我们将其打开，把它改成：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">type: &quot;categories&quot;</span><br><span class="line">comments: false</span><br></pre></td></tr></table></figure>
+<p>文章归类使用方式：在文章的头部加上</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">categories:</span><br><span class="line">    - 分类1</span><br><span class="line">    - 分类2</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>注意：标签和分类要确定你的配置文件 _config.yml 是否有打开了 tag_dir: tags 和 category_dir: categories。</p>
+</blockquote>
+<p>4、配置实时聊天 todo</p>
+<p>三、配置gitbub个人站</p>
+<p>1、 安装 hexo-deployer-git依赖</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>2、配置git</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">       type: git</span><br><span class="line">       repo: https:&#x2F;&#x2F;github.com&#x2F;xxx&#x2F;xxx.github.io.git</span><br></pre></td></tr></table></figure>
+
+<p>3、推送你的网站到Github上</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
+
+        
+        <br />
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="list-inline text-center">
+        
+        
+
+        
+
+        
+
+        
+        <li>
+            <a target="_blank"  href="https://github.com/yaobin24">
+                            <span class="fa-stack fa-lg">
+                                <i class="iconfont icon-github"></i>
+                            </span>
+            </a>
+        </li>
+        
+
+        
+
+    </ul>
+    
+    <p>
+        <span id="busuanzi_container_site_pv">
+            <span id="busuanzi_value_site_pv"></span>PV
+        </span>
+        <span id="busuanzi_container_site_uv">
+            <span id="busuanzi_value_site_uv"></span>UV
+        </span>
+        Created By <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>  Theme <a href="https://github.com/aircloud/hexo-theme-aircloud" target="_blank" rel="noopener">AirCloud</a></p>
+</footer>
+
+
+
+
+</body>
+
+<script>
+    // We expose some of the variables needed by the front end
+    window.hexo_search_path = "search.json"
+    window.hexo_root = "/"
+    window.isPost = true
+</script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="/js/index.js"></script>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+</html>
