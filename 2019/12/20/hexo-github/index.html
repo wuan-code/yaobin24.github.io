@@ -176,21 +176,19 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
 
 <p>这时会在source/下生成 tags/index.md 文件，我们将其打开，把它改成：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">type: &quot;tags&quot;</span><br><span class="line">comments: false</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">layout: &quot;tags&quot;</span><br><span class="line">title: &quot;Tags&quot;</span><br></pre></td></tr></table></figure>
 
 <p>文章使用标签方法:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tags:</span><br><span class="line">    - Tag1</span><br><span class="line">    - Tag2</span><br></pre></td></tr></table></figure>
 
-<p>3、添加分类</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+<p>3、使用about</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure>
 
-<p>这时会在source目录下生成 categories/index.md 文件，我们将其打开，把它改成：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">type: &quot;categories&quot;</span><br><span class="line">comments: false</span><br></pre></td></tr></table></figure>
-<p>文章归类使用方式：在文章的头部加上</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">categories:</span><br><span class="line">    - 分类1</span><br><span class="line">    - 分类2</span><br></pre></td></tr></table></figure>
+<p>这时会在source目录下生成 about/index.md 文件，我们将其打开，把它改成：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">layout: &quot;about&quot;</span><br><span class="line">title: about</span><br><span class="line">date: 2019-12-20 18:09:49</span><br><span class="line">comments: true</span><br></pre></td></tr></table></figure>
 
 <blockquote>
-<p>注意：标签和分类要确定你的配置文件 _config.yml 是否有打开了 tag_dir: tags 和 category_dir: categories。</p>
+<p>注意：标签要确定你的配置文件 _config.yml 是否有打开了 tag_dir: tags </p>
 </blockquote>
 <p>4、配置实时聊天 todo</p>
 <p>三、配置gitbub个人站</p>
